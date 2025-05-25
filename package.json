@@ -1,0 +1,21 @@
+{
+  "name": "playwright-typescript",
+  "version": "1.0.0",
+  "description": "Sample project with typescript and playwright\r **Automate a Login Flow with Playwright & TypeScript**\r 🧪 **Objective**\r Automate the login process of a sample web app using Playwright with TypeScript. Verify successful login by checking for a post-login element.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --headed",
+    "show-report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
